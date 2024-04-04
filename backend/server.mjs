@@ -1,7 +1,7 @@
-const dotenv = require("dotenv");
-const mongoose = require("mongoose");
-const app = require("./app");
-const path = require("path");
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+import app from "./app";
+import path from "path";
 
 dotenv.config(
   {
