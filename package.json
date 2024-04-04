@@ -2,11 +2,11 @@
   "name": "waggyswapshop",
   "version": "1.0.0",
   "description": "WaggySwapShop is an e-commerce application for buying and selling pet products.",
-  "main": "index.js",
+  "main": "index.mjs",
   "type": "module",
   "scripts": {
     "test": "mocha ./tests/**/*.mjs",
-    "dev": "nodemon server.js"
+    "dev": "cd backend && nodemon server.mjs"
   },
   "keywords": [],
   "author": "",
